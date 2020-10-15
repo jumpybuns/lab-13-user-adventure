@@ -7,7 +7,7 @@ const outside = {
     },
     image: 'outside.jpg',
     description: `
-        Its a beautiful day to bark the neighbors dog.
+        Its a beautiful day for zoomies in the backyard.
     `,
     choices: [{
         id: 'bark',
@@ -19,7 +19,7 @@ const outside = {
         food: 0
     }, {
         id: 'chase',
-        description: 'chase squirrel',
+        description: 'Chase squirrel',
         result: `
         Thank you saving my veggie garden from those blood thirsty squirrels. Here is a 15 food treat for you.
         `,
@@ -27,7 +27,7 @@ const outside = {
         food: 15
     }, {
         id: 'potty',
-        description: 'Go Potty on the lawn',
+        description: 'Go potty on the lawn',
         result: `
         Good doggie, you went potty where you're supposed to, let me give you 20 pets
         `,
