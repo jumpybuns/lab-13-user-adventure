@@ -2,7 +2,7 @@ import { getUser } from '../data/api.js';
 
 export function loadProfile() {
     const name = document.getElementById('name');
-    const breed = document.getElementById('breed');
+    // const breed = document.getElementById('breed');
     const food = document.getElementById('food');
     const pets = document.getElementById('pets');
 
@@ -13,7 +13,7 @@ export function loadProfile() {
 
     }
     name.textContent = user.name;
-    breed.src = '../assets/breeds/' + user.breed + '.png';
+    // breed.src = '../assets/' + user.breed + '.png';
     pets.textContent = user.pets;
 
     if (isDead(user)) {

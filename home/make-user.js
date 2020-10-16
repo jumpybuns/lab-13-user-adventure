@@ -1,4 +1,4 @@
-export function makeUser(formData) {
+function makeUser(formData) {
     const user = {
         name: formData.get('name'),
         breed: formData.get('breed'),

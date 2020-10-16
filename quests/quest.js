@@ -1,6 +1,6 @@
 import { loadProfile } from '../utils.js';
 import { getUser, saveUser } from '../data/api.js';
-import quests from '../data/api.js';
+import quests from '../data/quest-data.js';
 import createChoice from './create-choice.js';
 import { findById } from '../utils.js';
 import scoreQuest from './score-quest.js';
@@ -27,8 +27,8 @@ const result = document.getElementById('result');
 const resultDescription = document.getElementById('resultDescription');
 
 title.textContent = quest.title;
-image.src = '../assets/quests/' + quest.image;
-audio.src = '../assets/quests/' + quest.audio;
+image.src = '../assets/' + quest.image;
+audio.src = '../assets/' + quest.audio;
 description.textContent = quest.description;
 
 for (let i = 0; i < quest.choices.length; i++) {
@@ -47,7 +47,7 @@ choiceForm.addEventListener('submit', function(event) {
     scoreQuest(choice, quest.id, user);
     saveUser(user);
 
-    audio.src = '../assets/quests/' + quest.action;
+    audio.src = '../assets/' + quest.action;
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;

@@ -1,5 +1,3 @@
-const { default: quests } = require("../data/quest-data");
-
 function scoreQuest(choice, questId, user) {
 
     user.food += choice.food;
