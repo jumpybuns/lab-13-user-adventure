@@ -42,7 +42,7 @@ const livingRoom = {
         top: '89%',
         left: '44%'
     },
-    image: 'monsters.jpg',
+    image: 'living-room.jpg',
     description: `
             The comfiest spots in the (besides bed) are in here as well as your toys and dog bed.
     `,
@@ -60,7 +60,7 @@ const livingRoom = {
         result: `
             Its so nice and protected under there, I can see why like it. You finally get some peace and quiet. But unfortunately i cant pet or give you treats under there.
         `,
-        pets: -0,
+        pets: -15,
         food: 0
     }, {
         id: 'toy',
@@ -79,7 +79,7 @@ const kitchen = {
         top: '89%',
         left: '44%'
     },
-    image: 'monsters.jpg',
+    image: 'kitchen.jpg',
     description: `
         Yo doggie, this is where the treats and food is kept. You know what that means!
     `,
