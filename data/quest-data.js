@@ -48,7 +48,7 @@ const livingRoom = {
     `,
     choices: [{
         id: 'snuggle',
-        description: 'Snuggle up to your human friends',
+        description: 'Snuggle up to your human family',
         result: `
             Oh my gosh this is too cute. Now how am I supposed to get anything done? I cant even get up! Here is 1000 pets. 
         `,
@@ -56,7 +56,7 @@ const livingRoom = {
         food: 0
     }, {
         id: 'crawl',
-        description: 'Crawl Under the Couch',
+        description: 'Crawl under the coffee table',
         result: `
             Its so nice and protected under there, I can see why like it. You finally get some peace and quiet. But unfortunately i cant pet or give you treats under there.
         `,
