@@ -44,6 +44,3 @@ export function isDead(user) {
 
 }
 
-
-//LOAD PROFILE
-

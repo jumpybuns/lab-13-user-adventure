@@ -9,5 +9,5 @@ startButton.addEventListener('submit', function(event) {
     const formData = new FormData(startButton);
     const user = makeUser(formData);
     saveUser(user);
-    window.location = '../map/index.html';
+    window.location = 'map';
 });
