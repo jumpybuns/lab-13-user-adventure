@@ -1,17 +1,17 @@
 export const alivePetsMessages = {
-    poor: 'you live as a poor beggar',
-    modest: 'you live in a modest hut farming the earth',
-    rich: 'you and your whole family live in small castle in luxury',
+    poor: 'you are so lonely and cold with no pets from your humans!',
+    modest: 'you are ok and feel fine but your tail in not wagging',
+    rich: 'you are so happy and it shows in your waggin tail!',
 };
 
-export const deadPetsessages = {
-    poor: 'you leave nothing for your family',
-    modest: 'you leave enough to buy your family a turkey dinner at the pub',
-    rich: 'your family builds a monument in your honor'
+export const deadPetsMessages = {
+    poor: 'you have no concern for your humans so they get another dog',
+    modest: 'you and your humans go exsist but you spend all day looking out the window',
+    rich: 'you love your humans and they shower you with snuggles'
 };
 
 export const foodMessages = {
-    dead: 'you are dead',
-    frail: 'you retire in frail health',
-    healthy: 'you retire and live a long life in good health',
+    dead: 'dont feel bad, all dogs go to heaven',
+    frail: 'you are so hungry amd getting scrawny!',
+    healthy: 'ahhh it feels good to be fat and happy',
 };

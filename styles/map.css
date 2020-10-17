@@ -25,7 +25,12 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url('../assets/hallway.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
+
 
 main {
     display: flex;
@@ -33,10 +38,12 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+   
 }
 
 section {
     background-color: var(--color5);
+    background-image: url('../assets/hallway.jpg');
     width: 1000px;
     max-width: 80%;
     display: flex;

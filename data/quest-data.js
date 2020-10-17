@@ -44,7 +44,7 @@ const livingRoom = {
     },
     image: 'living-room.jpg',
     description: `
-            The comfiest spots in the (besides bed) are in here as well as your toys and dog bed.
+            The comfiest spots in the house (besides your couch) are in here as well as your toys and dog bed.
     `,
     choices: [{
         id: 'snuggle',
